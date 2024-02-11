@@ -15,17 +15,17 @@ void Warlock::introduce() const
 	std::cout << _name << ": I am " << _name << ", " << _title << "!" << std::endl;
 }
 
-std::string	Warlock::getName() const
+const std::string	&Warlock::getName() const
 {
 	return (_name);
 }
 
-std::string	Warlock::getTitle() const
+const std::string	&Warlock::getTitle() const
 {
 	return (_title);
 }
 
-void		Warlock::setTitle(std::string const&title) const
+void		Warlock::setTitle(std::string const &title)
 {
 	_title = title;
 }
