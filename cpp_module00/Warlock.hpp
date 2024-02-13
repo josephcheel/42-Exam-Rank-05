@@ -1,17 +1,18 @@
 #pragma once
 
 #include <iostream>
+using namespace std;
 
 class Warlock {
 	private:
-		std::string _name;
-		std::string _title;
+		string _name;
+		string _title;
 	public:
-		Warlock(const std::string &name, const std::string &title);
+		Warlock(const string &name, const string &title);
 		~Warlock();
 		void introduce() const;
-		const std::string	&getName() const;
-		const std::string	&getTitle() const;
-		void		setTitle(std::string const &title);
+		const string	&getName() const;
+		const string	&getTitle() const;
+		void		setTitle(string const &title);
 
 };
