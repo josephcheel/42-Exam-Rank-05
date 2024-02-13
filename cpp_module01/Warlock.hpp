@@ -4,30 +4,31 @@
 # include <map>
 # include "ASpell.hpp"
 # include "ATarget.hpp"
-
+using namespace std;
 
 class Warlock {
 	private:
-		std::string _name;
-		std::string _title;
-		std::map<std::string, ASpell *> _spellBook;
+		string _name;
+		string _title;
+		map<string, ASpell *> _spellBook;
 	public:
-		Warlock(const std::string &name, const std::string &title);
+		Warlock(const string &name, const string &title);
 		~Warlock();
 		void introduce() const;
-		const std::string	&getName() const;
-		const std::string	&getTitle() const;
-		void		setTitle(std::string const &title);
+		const string	&getName() const;
+		const string	&getTitle() const;
+		void		setTitle(string const &title);
 
 		void	learnSpell(ASpell *learn);
-		void	forgetSpell(std::string name);
-		void	launchSpell(std::string name, const ATarget &target);
+		void	forgetSpell(string name);
+		void	launchSpell(string name, const ATarget &target);
 
-// 		* learnSpell, takes a pointer to ASpell, that makes the Warlock learn a spell
-// * forgetSpell, takes a string corresponding a to a spell's name, and makes the
-//   Warlock forget it. If it's not a known spell, does nothing.
-// * launchSpell, takes a string (a spell name) and a reference to ATarget, that
-//   launches the spell on the selected target. If it's not a known spell, does
-//   nothing.
-
+	/* 		
+		* learnSpell, takes a pointer to ASpell, that makes the Warlock learn a spell
+		* forgetSpell, takes a string corresponding a to a spell's name, and makes the
+		Warlock forget it. If it's not a known spell, does nothing.
+		* launchSpell, takes a string (a spell name) and a reference to ATarget, that
+		launches the spell on the selected target. If it's not a known spell, does
+		nothing.
+	*/
 };

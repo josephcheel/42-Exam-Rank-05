@@ -4,9 +4,7 @@
 class Dummy : public ATarget {
 	public:
 		Dummy();
-		~Dummy();
-		// Dummy(const Dummy& copy);
-		// Dummy &operator=(const Dummy &copy);
-		
+		~Dummy() {};
+
 		ATarget *clone() const;
 };
