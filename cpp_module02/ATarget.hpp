@@ -3,18 +3,20 @@
 # include <iostream>
 # include "ASpell.hpp"
 
+using namespace std;
+
 class ASpell;
 
 class ATarget {
 	protected:
-		std::string _attribute;
+		string _attribute;
 	public:
 		ATarget();
 
-		ATarget(const std::string &type);
+		ATarget(const string &type);
 		virtual ~ATarget() {};
 
 		void	getHitBySpell(const ASpell &spell) const;
-		const std::string &getType() const;
+		const string &getType() const;
 		virtual ATarget *clone() const = 0;
 };

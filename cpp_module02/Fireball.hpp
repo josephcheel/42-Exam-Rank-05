@@ -5,7 +5,7 @@
 class Fireball : public ASpell {
 	public:
 		Fireball();
-		~Fireball();
+		~Fireball() {};
 
 		ASpell *clone() const;
 };

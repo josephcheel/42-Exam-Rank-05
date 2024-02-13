@@ -4,7 +4,7 @@
 class Fwoosh : public ASpell {
 	public:
 		Fwoosh();
-		~Fwoosh();
+		~Fwoosh() {};
 
 		ASpell *clone() const;
 };

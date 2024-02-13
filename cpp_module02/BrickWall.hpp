@@ -4,7 +4,7 @@
 class BrickWall : public ATarget {
 	public:
 		BrickWall();
-		~BrickWall();
+		~BrickWall() {};
 
 		ATarget *clone() const;
 };
