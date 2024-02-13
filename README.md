@@ -8,7 +8,10 @@
   <!--<img alt="Complete" src="https://raw.githubusercontent.com/Mqxx/GitHub-Markdown/main/blockquotes/badge/dark-theme/complete.svg">-->
 </h1>
 <!--FINISH HEADER-->
+<div align="center">
+ 
+• [Exam Module 00](https://github.com/josephcheel/42-Exam-Rank-05/tree/main/cpp_module00)
+• [Exam Module 01](https://github.com/josephcheel/42-Exam-Rank-05/tree/main/cpp_module01)
+• [Exam Module 02](https://github.com/josephcheel/42-Exam-Rank-05/tree/main/cpp_module02)
 
-* [Exam Module 00](https://github.com/josephcheel/42-Exam-Rank-05/tree/main/cpp_module00)
-* [Exam Module 01](https://github.com/josephcheel/42-Exam-Rank-05/tree/main/cpp_module01)
-* [Exam Module 02](https://github.com/josephcheel/42-Exam-Rank-05/tree/main/cpp_module02)
+</div>
